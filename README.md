@@ -6,6 +6,7 @@ This project makes it easy to access that image url data in either CSV or SQLite
 
 ## Where are the images?
 
+- [National Gallery of Art](1.data/nga-images.csv)
 - [Met - Images CSV](1.data/met-images.csv)
 - [Chicago - Images CSV](1.data/chicago-images.csv)
 - thanks to [@whatever](https://github.com/whatever), the same image-identifier-to-url data is also available in sqlite3 format!
@@ -16,6 +17,8 @@ This project makes it easy to access that image url data in either CSV or SQLite
 - the Met doesn't make image URLs part of its [frequently updated CSV dataset file](https://github.com/metmuseum/openaccess/) -- "Images are not included and are not part of the dataset"
 
 - the Art Institute of Chicago does not make image URLs easily available either -- warning of this in the exact same language as the Met: "Images are not included and are not part of the dataset" from its otherwise well thought out [API documentation](https://github.com/art-institute-of-chicago/api-data)
+
+- the National Gallery does not make image URLs for the exact same reason as above, "mages and media files are not included in the dataset." [The NGA API](https://github.com/NationalGalleryOfArt/opendata) is no different to above ones. Comparing to Met and the Art Institute of Chicago, the National Gallery of Art's images are more difficult to access as the image urls are not even directly vailable in the json files.
 
 - does giving access to the image URLs feel reductive of the richness of this data? why are institutions putting in so much effort to publish Open Access datasets and keep them updated, but specifically hide the image URLs? what's going on? am I crazy?
 
